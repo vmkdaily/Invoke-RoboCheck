@@ -1,4 +1,4 @@
-﻿Function Stop-Logging {
+Function Stop-Logging {
 
     <#
 
