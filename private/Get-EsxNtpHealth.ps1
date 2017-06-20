@@ -1,4 +1,4 @@
-﻿Function Get-EsxNtpHealth {
+Function Get-EsxNtpHealth {
 
     <#
 
