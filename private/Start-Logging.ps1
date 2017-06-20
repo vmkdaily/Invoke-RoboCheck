@@ -1,4 +1,4 @@
-﻿Function Start-Logging {
+Function Start-Logging {
   <#
 
       .DESCRIPTION
