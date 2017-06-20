@@ -1,4 +1,4 @@
-﻿Function Disconnect-RoboVC {
+Function Disconnect-RoboVC {
 
     <#
       .DESCRIPTION
