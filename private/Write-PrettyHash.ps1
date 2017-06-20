@@ -1,4 +1,4 @@
-﻿Function Write-PrettyHash {
+Function Write-PrettyHash {
 
     <#
     
