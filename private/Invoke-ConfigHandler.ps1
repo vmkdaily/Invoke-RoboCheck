@@ -1,4 +1,4 @@
-﻿Function Invoke-ConfigHandler {
+Function Invoke-ConfigHandler {
 
   <#
       .DESCRIPTION
