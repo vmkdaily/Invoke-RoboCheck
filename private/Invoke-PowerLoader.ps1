@@ -1,4 +1,4 @@
-﻿Function Invoke-PowerLoader {
+Function Invoke-PowerLoader {
 
     <#
     .DESCRIPTION
