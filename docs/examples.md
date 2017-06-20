@@ -87,16 +87,7 @@
             Default value                
             Accept pipeline input?       false
             Accept wildcard characters?  false
-            
-        -SplatPref <Array>
-            For advanced users, the preferences can be splatted in as a hashtable.
-            
-            Required?                    false
-            Position?                    named
-            Default value                @()
-            Accept pipeline input?       false
-            Accept wildcard characters?  false
-            
+	    
         -SaveCredentials [<SwitchParameter>]
             Optionally save an encypted credential to disk.
             This selection presents a Menu based system for user to create up to 4 credential files.
@@ -165,14 +156,12 @@
             ParentModule:   Invoke-RoboCheck
             Author:         Mike Nisk
             Organization:   vmkdaily
-            Updated:        05April2017
             
             ABOUT CREDENTIAL HANDLING
             We consume credentials in the following order:
               
             PSCredential Object  - This always wins
             EncryptedXml         - We try this next if no creds are given
-            VICredentialStore    - If still not logged in, we check your local VICredentialStore
             PassThrough (SSPI)   - Finally, if no other valid credential is found, we use Passthrough (SSPI)
         
         -------------------------- EXAMPLE 1 --------------------------
