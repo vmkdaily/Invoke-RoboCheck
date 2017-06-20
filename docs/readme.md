@@ -147,5 +147,35 @@ functionality for multiple users on the same box.<br>
     VERBOSE: Log file: C:\Users\vmadmin\AppData\Local\Temp\robo-ps-transcript-06May2017_1011.log
     PS C:\>
 
-
-
+```
+C:\> $report | select -First 1
+    
+    Name                 : esx01.lab.local
+    State                : Connected
+    OverallStatus        : green
+    DiffToUTC            : 0.1916
+    Datastore1 Free (GB) : 67
+    Datastore2 Free (GB) : 99
+    MemoryFreeGB         : 28
+    CpuUsageMhz          : 9115
+    VM Count             : 4
+    VmAutoStartOff       : n/a
+    EsxStartProtection   : HA Protected
+    IsStandalone         : False
+    NtpRunning           : True
+    NtpServers           : 10.202.3.250
+    EsxVersion           : 6.0.0
+    EsxBuild             : 3825889
+    OsType               : vmnix-x86
+    LicenseKey           : XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+    MemoryTotalGB        : 64
+    NumCpu               : 4
+    ProcessorType        : Intel(R) Xeon(R) CPU E5-1620 v2 @ 3.70GHz
+    Manufacturer         : Apple Inc.
+    Model                : MacPro6,1
+    BIOS                 : MP61.88Z.0116.B16.1509081436
+    ParentVC             : vcva02.lab.local
+    ```
+    
+    Example showing all items captured and returned in an object for a single ESX host.
+    
