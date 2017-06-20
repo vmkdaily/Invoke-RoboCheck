@@ -1,4 +1,4 @@
-﻿Function Write-Msg {
+Function Write-Msg {
 
   <#
 
