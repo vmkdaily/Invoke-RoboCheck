@@ -1,4 +1,4 @@
-﻿Function Connect-RoboVC {
+Function Connect-RoboVC {
 
     <#
       .DESCRIPTION
