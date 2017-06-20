@@ -1,4 +1,4 @@
-﻿Function Get-RoboDatastore {
+Function Get-RoboDatastore {
 
     <#
       .DESCRIPTION
