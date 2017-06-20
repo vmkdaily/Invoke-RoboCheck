@@ -49,7 +49,7 @@ Function Invoke-RoboCheck {
         .PARAMETER Cluster
           Choose to target ESX hosts only from a particular cluster
 
-        .PARAMETER 
+        .PARAMETER SaveCredential
           Optionally save an encypted credential to disk.
           This selection presents a Menu based system for user to create up to 4 credential files.
           The Credential files must be created one at time.  Re-run the script to create more if needed.
