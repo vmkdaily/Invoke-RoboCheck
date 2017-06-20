@@ -23,7 +23,6 @@ Function Invoke-RoboCheck {
             
           PSCredential Object  - This always wins
           EncryptedXml         - We try this next if no creds are given
-          VICredentialStore    - If still not logged in, we check your local VICredentialStore
           PassThrough (SSPI)   - Finally, if no other valid credential is found, we use Passthrough (SSPI)
     
         .PARAMETER Computer
