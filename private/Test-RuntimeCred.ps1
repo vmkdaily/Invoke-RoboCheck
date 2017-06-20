@@ -1,4 +1,4 @@
-﻿Function Test-RuntimeCred {
+Function Test-RuntimeCred {
 
     <#
       .DESCRIPTION
