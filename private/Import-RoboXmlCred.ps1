@@ -1,4 +1,4 @@
-﻿Function Import-RoboXmlCred {   
+Function Import-RoboXmlCred {   
 
         <#
         .DESCRIPTION
