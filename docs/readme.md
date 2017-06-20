@@ -175,7 +175,7 @@ C:\> $report | select -First 1
     Model                : MacPro6,1
     BIOS                 : MP61.88Z.0116.B16.1509081436
     ParentVC             : vcva02.lab.local
-    ~~~
+~~~
     
     Example showing all items captured and returned in an object for a single ESX host.
     
