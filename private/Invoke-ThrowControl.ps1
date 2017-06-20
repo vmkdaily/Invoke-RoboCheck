@@ -1,4 +1,4 @@
-﻿Function Invoke-ThrowControl {
+Function Invoke-ThrowControl {
 
     <#
       .SYNOPSIS
