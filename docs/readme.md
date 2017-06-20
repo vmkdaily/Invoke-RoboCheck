@@ -147,7 +147,7 @@ functionality for multiple users on the same box.<br>
     VERBOSE: Log file: C:\Users\vmadmin\AppData\Local\Temp\robo-ps-transcript-06May2017_1011.log
     PS C:\>
 
-```
+~~~
 C:\> $report | select -First 1
     
     Name                 : esx01.lab.local
@@ -175,7 +175,7 @@ C:\> $report | select -First 1
     Model                : MacPro6,1
     BIOS                 : MP61.88Z.0116.B16.1509081436
     ParentVC             : vcva02.lab.local
-    ```
+    ~~~
     
     Example showing all items captured and returned in an object for a single ESX host.
     
