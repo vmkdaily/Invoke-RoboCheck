@@ -1,4 +1,4 @@
-﻿Function New-RoboCredential {
+Function New-RoboCredential {
 
     <#
     
