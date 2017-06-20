@@ -1,4 +1,4 @@
-﻿Function Out-IniFile {
+Function Out-IniFile {
     <#
       .Synopsis
         Write hash content to INI file
