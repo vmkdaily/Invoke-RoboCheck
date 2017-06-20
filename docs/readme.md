@@ -15,12 +15,12 @@ Write-Msg<br>
 Write-PrettyHash<br>
 Invoke-PowerLoader<br>
 Invoke-ThrowControl<br>
-Test-RuntimeCreds<br>
+Test-RuntimeCred<br>
 `Export-PSCredential`<br>
 `Import-PSCredential`<br>
 New-RoboCredential<br>
 Test-Credfile<br>
-Import-RoboXmlCreds<br>
+Import-RoboXmlCred<br>
 Connect-RoboVC<br>
 Disconnect-RoboVC<br>
 Get-RoboDatastore<br>
@@ -43,59 +43,8 @@ https://github.com/vmkdaily/Invoke-RoboCheck/blob/master/docs/LICENSE.md
 - Run the script (i.e. Invoke-RoboCheck -Computer vcenter01.lab.local)
 - Optionally, edit the auto-generated preferences file at `$Env:USERPROFILE\Invoke-RoboCheck.ini`
 
-## INSTRUCTIONS
-Step 1<br>
-Download and install PowerCLI<br>
-www.vmware.com/go/powercli<br>
-Note:  This module supports PowerCLI versions 5.0 to 6.5+.<br>
-PowerCLI 6.5 is preferred, but not required.<br>
-
-Step 2<br>
-Windows update your machine and upgrade your Powershell version if possible.<br>
-This module supports Powershell versions 3 or greater (Powershell 5 preferred, not required).<br>
-You can check your Powershell version by running $PSVersionTable.<br>
-Note:  This module not intended for or tested on Powershell 6 for linux.<br>
-
-Step 3<br>
-Execution Policy<br>
-From an elevated Powershell prompt run the following:
-
-    C:\> Get-ExecutionPolicy
-
-*Note: If it comes back as restricted, then you need to change it to RemoteSigned, Unrestricted or Bypass*
-
-    Set-ExecutionPolicy RemoteSigned -Confirm:$false
-
-Step 4<br>
-Download the module to the desired path.  You need the entire `Invoke-RoboCheck` folder.
-
-Step 5<br>
-After downloading, right-click the folder and go to properties.  Click on 'unblock' if needed.
-
-Step 6<br>
-Launch Powershell as administrator (i.e. right-click run as administrator)
-
-Step 7<br>
-Import the Module into your Powershell session by using Import-Module.<br>
-We do this by pointing to the folder.  You should choose a good location, but for this<br>
-example, we are just saving the module to c:\temp and importing from there.<br>
-
-    C:\> Import-Module C:\temp\Invoke-RoboCheck -Verbose
-    VERBOSE: Loading module from path 'C:\temp\Invoke-RoboCheck\Invoke-RoboCheck.psd1'.
-    VERBOSE: Loading module from path 'C:\temp\Invoke-RoboCheck\Invoke-RoboCheck.psm1'.
-    VERBOSE: Importing function 'Invoke-RoboCheck'.
-    C:\>
-
-Now that the above is done, you can start using the module by consuming it's main function,
-known as Invoke-RoboCheck (same as the module name).
-
-See the cmdlet help for more information:<br>
-Get-Help Invoke-RoboCheck -ShowWindow<br>
-Get-Help Invoke-RoboCheck -Full<br>
-Get-Help Invoke-RoboCheck -Examples<br>
-
-Step 8<br>
-The first time you run Invoke-RoboCheck, a file called Invoke-RoboCheck.ini is created for you.<br>
+## PREFERENCES
+The first time you run Invoke-RoboCheck, a file called `Invoke-RoboCheck.ini` is created for you.<br>
 This file controls the configuration for things like path to Credential files (optional), output<br>
 directories, naming conventions, etc.  This is stored in your user profile ($Env:USERPROFILE) to ensure<br>
 functionality for multiple users on the same box.<br>
