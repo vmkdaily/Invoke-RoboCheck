@@ -1,4 +1,4 @@
-﻿Function Import-PSCredential {
+Function Import-PSCredential {
 
     <#
       .DESCRIPTION
