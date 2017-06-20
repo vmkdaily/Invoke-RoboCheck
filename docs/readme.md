@@ -35,8 +35,8 @@ Invoke-RoboCheck<br>
 ## Exported Functions
 Invoke-RoboCheck is the only function the user can interact with.
 
-## License
-https://opensource.org/licenses/MIT
+## License (MIT, 2017)
+https://github.com/vmkdaily/Invoke-RoboCheck/blob/master/docs/LICENSE.md
 
 ## QUICK START
 - Import the Module
