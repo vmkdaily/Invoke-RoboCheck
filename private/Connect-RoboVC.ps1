@@ -113,7 +113,7 @@ Function Connect-RoboVC {
         ## if we're still not connected
         If(!$Global:DefaultVIServer.IsConnected) {
             Write-Msg -InputMessage ("{0}`: Problem Connecting!" -f ($Computer))
-            Invoke-ThrowControl -Reason 'Problem enumerating one or more vCenter Servers!' #throw here is most restrictive and recommended
+            Continue
         } #End if throw needed
         Else {	
           ## If connection ok
